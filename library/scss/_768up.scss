@@ -1,0 +1,97 @@
+/******************************************************************
+Site Name: Div Wiki
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+    ** imports _768up-nav.scss
+******************************************************************/
+
+/*********************
+GENERAL STYLES
+*********************/
+body {}
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+.wrap {max-width: 1040px;}
+.full{display: block;}
+.mobile{display:none;}
+/*********************
+HEADER SYTLES
+*********************/
+.header {
+
+	#logo {}
+	#desc {}
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+.header {
+	#menu-icon-wrap {
+		
+	}
+	#menu-icon {
+		
+	}
+	nav {
+		
+	}
+}
+
+@import '768up-nav';
+
+.utility-nav {
+	
+	li {
+		
+		a {
+			
+		}
+	}
+}
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+.sidebar {
+	
+	.widgettitle {
+		
+	}
+
+	.widget {
+		
+		ul {
+			li {
+				
+				&:first-child {}
+				&:last-child {}
+				a {}
+				/* deep nesting */
+
+				ul {
+					
+				}
+			}
+		}
+	}
+}
+
+	
+
+/*********************
+FOOTER STYLES
+*********************/
+.footer-links {
+	ul {
+		li {
+			a {
+				&:hover {}
+			}
+			ul {}
+		}
+	}
+} /* end .footer-links */
